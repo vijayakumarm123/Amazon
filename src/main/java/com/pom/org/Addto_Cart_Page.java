@@ -9,11 +9,11 @@ public class Addto_Cart_Page {
 	
 	public WebDriver driver;
 	
-	@FindBy (xpath = "(//div[@class='twisterImageDiv twisterImageDivWrapper'])[2]")
+	//@FindBy(xpath = "//span[@id='color_name_3']/ancestor::li/following-sibling::li[3]//input[@class='a-button-input']")
+	@FindBy(xpath = "//select[@id='quantity']")
 	private WebElement winecolour;
 	
-	//@FindBy(xpath = "//input[@title='Add to Shopping Cart']")
-	@FindBy(name = "submit.add-to-cart")
+	@FindBy(xpath = "//input[@title='Add to Shopping Cart']")
 	private WebElement Add_To_Cart;
 	
 	public Addto_Cart_Page(WebDriver driver) {

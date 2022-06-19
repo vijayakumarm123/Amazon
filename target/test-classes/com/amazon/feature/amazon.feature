@@ -11,5 +11,5 @@ Scenario: user select checked saree
 Then user click the jute silk saree it will navigate to next page 
 
 Scenario: user click Add To Cart
-Given user select wine color
+Then user select wine color
 Then  user to click the Add To Cart Button it will navigate to next page

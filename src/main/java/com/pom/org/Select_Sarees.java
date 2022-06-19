@@ -9,8 +9,8 @@ public class Select_Sarees {
 	
 	public WebDriver driver;
 	
-	//@FindBy(xpath = "(//h2[@class='a-size-mini a-spacing-none a-color-base s-line-clamp-4'])[4]")
-	@FindBy(xpath = "//*[text()='Yashika Women Art Silk Sarees SDPL-SDPL-RAJRANI']")
+	@FindBy(xpath ="(//span[@class='s-color-swatch-inner-circle-border'])[10]")
+//	@FindBy(xpath = "//*[@class='a-section a-spacing-base']/descendant::span[text()='Yashika Women Art Silk Sarees SDPL-SDPL-RAJRANI']")
 	private WebElement jute_Silk_Saree;
 
 	

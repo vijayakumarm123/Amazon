@@ -73,8 +73,9 @@ public static WebDriver driver;
 		element.sendKeys(value);
 	}
 	
-	public static void close( ) {
+	public static WebDriver close( ) {
 		driver.close();                                                      //5
+		return driver;
 		
 	
 	}
